@@ -23,8 +23,8 @@ export default function RootLayout({
 }: Readonly<RootLayoutProps>) {
   return (
     <html lang={locale}>
-      <body className={inter.className}>
-        <div className="flex flex-col min-h-screen max-w-4xl mx-auto">
+      <body className={`${inter.className} bg-slate-100 dark:bg-gray-800`}>
+        <div className="flex flex-col min-h-screen max-w-4xl mx-auto ">
           <Header />
           <div className="flex-grow mt-20">{children}</div>
           <Footer />

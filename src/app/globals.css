@@ -26,6 +26,22 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+h1,
+h2,
+h3,
+p {
+  color: "black";
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark p,
+.dark select,
+.dark a {
+  color: #ffffff;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
