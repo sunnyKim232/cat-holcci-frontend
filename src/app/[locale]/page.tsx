@@ -1,3 +1,4 @@
+import DarkModeButton from "@/components/DarkModeButton";
 import { useTranslations } from "next-intl";
 
 const Page = () => {
