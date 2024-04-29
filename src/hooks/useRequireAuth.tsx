@@ -18,6 +18,7 @@ function useRequireAuth() {
     } else {
       setAccessToken(false);
       setLoading(true);
+      router.push("/");
     }
   }, [router]);
 

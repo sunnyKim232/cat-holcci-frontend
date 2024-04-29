@@ -12,5 +12,13 @@
   },
   "Footer": {
     "copyright": "© 2024 Cat Holcci. All rights reserved."
+  },
+  "Login": {
+    "intro": "Make My Body Lighter",
+    "login": "Sign in",
+    "id": "ID",
+    "password": "Password",
+    "logout": "Logout",
+    "signup": "Sign up"
   }
 }
