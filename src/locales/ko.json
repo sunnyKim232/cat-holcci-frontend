@@ -12,5 +12,13 @@
   },
   "Footer": {
     "copyright": "© 2024 고양이홀씨. All rights reserved."
+  },
+  "Login": {
+    "intro": "내 몸을 가볍게",
+    "login": "로그인",
+    "id": "아이디",
+    "password": "패스워드",
+    "logout": "로그아웃",
+    "signup": "회원가입"
   }
 }
