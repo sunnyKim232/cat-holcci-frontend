@@ -2,7 +2,7 @@ import { useTranslation } from "next-i18next";
 import React from "react";
 
 interface TextButtonProps {
-  onClickHandler: () => void;
+  onClickHandler?: () => void;
   text: string;
   bgColor?: string;
   textColor?: string;
@@ -16,7 +16,7 @@ const TextButton = ({
   const { t } = useTranslation();
   return (
     <button
-      className={`${bgColor} ${textColor} w-full h-10  border rounded-md font-bold`}
+      className={`${bgColor} ${textColor} w-full h-10  rounded-md font-bold`}
       onClick={onClickHandler}
       type="button"
     >

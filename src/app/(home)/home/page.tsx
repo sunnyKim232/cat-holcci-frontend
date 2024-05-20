@@ -1,4 +1,5 @@
 "use client";
+import Navibar from "@/app/Navibar";
 import TextButton from "@/components/TextButton";
 import useLocalStorage from "@/hooks/useLocalStorage";
 import { useRouter } from "next/navigation";
@@ -10,13 +11,14 @@ const Page = () => {
   const router = useRouter();
   function logout() {
     removeItem("authorization");
+    removeItem("theme");
     router.push("/");
   }
   useEffect(() => {
     if (!getItem("authorization")) {
       setTimeout(() => {
         router.push("/");
-      }, 2000);
+      }, 3000);
     }
   }, [getItem, router]);
   if (!getItem("authorization")) {
@@ -26,12 +28,7 @@ const Page = () => {
       </p>
     );
   }
-  return (
-    <div>
-      page
-      <TextButton onClickHandler={logout} text="Login.logout" />
-    </div>
-  );
+  return <div>page</div>;
 };
 
 export default Page;

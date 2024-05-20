@@ -8,12 +8,13 @@ import { useTranslation } from "next-i18next";
 import { useRouter } from "next/navigation";
 
 const Page = () => {
-  useRequireAuth();
+  const [accessToken, loading] = useRequireAuth();
   const { t } = useTranslation();
   const router = useRouter();
   function handleSignUp() {
     router.push("/register");
   }
+
   return (
     <div className="flex justify-center align-center flex-wrap h-full flex-glow">
       <div className="w-full h-fit flex flex-row-reverse pt-4">
