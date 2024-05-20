@@ -7,7 +7,7 @@ export default function Header() {
   const { t } = useTranslation();
 
   return (
-    <header className="p-4">
+    <header className="">
       <nav className="flex items-center justify-between">
         <Link href="/">{t("Navigation.home")}</Link>
         <div className="flex gap-2 flex-row justify-center items-center">

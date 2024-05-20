@@ -8,17 +8,39 @@
     "description": "관리자에게 문의하십시오."
   },
   "Navigation": {
-    "home": "홈"
+    "home": "Make My Body Lighter"
   },
   "Footer": {
     "copyright": "© 2024 고양이홀씨. All rights reserved."
   },
   "Login": {
     "intro": "내 몸을 가볍게",
+    "description": "매일의 다이어트 기록을 관리하세요.",
     "login": "로그인",
     "id": "아이디",
     "password": "패스워드",
     "logout": "로그아웃",
     "signup": "회원가입"
+  },
+  "Register": {
+    "signup": "Make My Body Lighter 회원가입",
+    "submit": "제출",
+    "userid": "아이디",
+    "password": "패스워드",
+    "email": "이메일",
+    "nickname": "별명",
+    "currentHeight": "현재 키",
+    "currentWeight": "현재 몸무게",
+    "goalWeight": "목표 몸무게",
+    "goalFat": "목표 체지방량",
+    "goalMuscle": "목표 근육량",
+    "whatwantsay": "자유롭게 하고 싶은 말을 자유롭게 적어주세요. (목표, 스스로의 다짐 등)"
+  },
+
+  "Navibar": {
+    "feed": "피드",
+    "graph": "그래프",
+    "bookmark": "즐겨찾기",
+    "my": "My"
   }
 }

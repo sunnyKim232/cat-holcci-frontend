@@ -20,15 +20,14 @@ const LoginForm = () => {
       route.push("/home");
     }
   }
-
-  function handleSignUp() {
-    route.push("/register");
-  }
   return (
     <div className="flex justify-center items-center">
       <form onSubmit={(e) => handleLogin(e)} className="h-fit w-[400px]">
         <p className="w-full text-center text-2xl font-bold pb-7">
           {t("Login.intro")}
+        </p>
+        <p className="w-full text-center text-xl pb-7">
+          {t("Login.description")}
         </p>
         <div className="pb-5">
           <label htmlFor="userId" className="w-full">

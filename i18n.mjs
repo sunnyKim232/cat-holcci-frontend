@@ -21,12 +21,11 @@ const resources = {
 i18n
   .use(Backend)
   .use(LanguageDetector)
-  .use(initReactI18next)
   .init({
     resources,
     fallbackLng: "en",
     debug: true,
-    lng: "en",
+    lng: "ko",
     interpolation: {
       escapeValue: false,
     },
